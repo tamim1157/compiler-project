@@ -1,0 +1,109 @@
+#import header.h
+#import finalproject.h
+
+$$This is the project create by Tamim.
+
+<! 
+ multiline comment
+!>
+
+<InT> FuncName ((<InT> p1:=1 ,, <DoublE> p2:= 5))
+{{
+    <InT> a := 10
+    <PrintF>(($Inside the function Function performed...$))
+}}
+
+<InT> main (())
+{{
+    <InT> int4 := 4
+    <InT> int1 := 1 ,, int2 := 2 ,, int3 := 3
+ 
+
+    <DoublE> double1 := 1.5 ,, double2 := 2.3 ,, double3 := double1 +op+ double2
+
+    <ChaR> char1 := 1 ,, char2 := 2 ,, char3 := 3 
+
+    <PrintF>(($Double checking$))
+    <PrintF>((double3))
+
+
+    <PrintF>(($.....different type of operations.....$))
+    int1 := int2 +op+ int3
+    <PrintF>((int1))
+
+    int1 := int2 -op- int3
+    <PrintF>((int1))
+
+    int1 := int2 %op% int3
+    <PrintF>((int1))
+
+    int1 := int2 &op& int3 -op- int4
+    <PrintF>((int1))
+
+    int1 := int2 *op* int3 -op- int4
+    <PrintF>((int1))
+
+    int1 := int2 &op& (( int3 -op- int4 ))
+    <PrintF>((int1))
+
+
+    int1:= 15
+    IncOnE((int1))
+    <PrintF>((int1))
+    IncOnE((int1))
+    <PrintF>((int1))
+    DecOnE((int1))
+    <PrintF>((int1))
+
+
+    GCD (( 50 ,, 20 ))
+    LCM (( int1 ,, 7 ))
+    MIN (( int1 ,, int3 ))
+    MAX (( int1 ,, int3 ))
+
+
+    <WhilE> ((int1 << 4))
+    {{
+        <ChaR> char1 := $u$
+        <PrintF> (($Inside While loop$))
+    }}
+
+
+    <InT> i := 3
+    <FoR> (( i:=6 ;; i << 4 ;; IncOnE((i)) ))
+    {{ 
+        i := i +op+ 5
+        <PrintF> (($Inside the For loop$))
+    }}
+
+    <IF> ((i << 1))
+    {{
+        int1 := 8 +op+ 5
+        <PrintF>(($Inside if statement$))
+    }}
+    <ElsE>
+    {{
+        int3 := 4 -op- 5
+        <PrintF>(($Inside else statement$))
+    }}
+
+    i := 1
+    <IF> ((i <<== 1))
+    {{
+        int1 := 8 +op+ 5
+        <IF> ((i <<== 1))
+        {{
+            <PrintF>(($Nested if structure $))
+        }}
+    }}
+
+    <SwitcH> (( 3 ))
+    <CasE> 1 :: {{ <PrintF>(($case 1$)) }}
+    <CasE> 2 :: {{ <PrintF>(($case 2$)) }}
+    <CasE> 3 :: {{ <PrintF>(($case 3$)) }}
+    <CasE> 4 :: {{ <PrintF>(($case 4$)) }}
+    <DefaulT> :: {{ <PrintF>(($default case$))}}
+}}
+
+
+$$End of the function

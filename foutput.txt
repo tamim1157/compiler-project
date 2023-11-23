@@ -1,0 +1,255 @@
+#import header.h
+#import header.h is header file that included.
+
+#import finalproject.h
+#import finalproject.h is header file that included.
+
+
+
+$$This is the project create by Tamim.
+
+Single-line comment: $$This is the project create by Tamim.
+
+
+
+<!
+
+Multiple line comment begins multiline comment
+!>
+
+ multiple line comment ends
+
+
+<InT> FuncName ((<InT> p1:=1 ,, <DoublE> p2:= 5))
+Function declared
+
+{{
+
+    <InT> a := 10
+
+    <PrintF>(($Inside the function Function performed...$))
+Inside the function Function performed...
+
+}}
+User defined function.
+
+
+
+<InT> main (())
+Function declared
+
+{{
+
+    <InT> int4 := 4
+
+    <InT> int1 := 1 ,, int2 := 2 ,, int3 := 3
+
+
+
+
+
+    <DoublE> double1 := 1.5 ,, double2 := 2.3 ,, double3 := double1 +op+ double2
+
+
+
+    <ChaR> char1 := 1 ,, char2 := 2 ,, char3 := 3
+
+
+
+    <PrintF>(($Double checking$))
+Double checking
+
+    <PrintF>((double3))
+3.800000
+
+
+
+
+
+    <PrintF>(($.....different type of operations.....$))
+.....different type of operations.....
+
+    int1 := int2 +op+ int3
+
+    <PrintF>((int1))
+5
+
+
+
+    int1 := int2 -op- int3
+
+    <PrintF>((int1))
+-1
+
+
+
+    int1 := int2 %op% int3
+
+    <PrintF>((int1))
+2
+
+
+
+    int1 := int2 &op& int3 -op- int4
+
+    <PrintF>((int1))
+-2
+
+
+
+    int1 := int2 *op* int3 -op- int4
+
+    <PrintF>((int1))
+2
+
+
+
+    int1 := int2 &op& (( int3 -op- int4 ))
+
+    <PrintF>((int1))
+2
+
+
+
+
+
+    int1:= 15
+
+    IncOnE((int1))
+
+    <PrintF>((int1))
+16
+
+    IncOnE((int1))
+
+    <PrintF>((int1))
+17
+
+    DecOnE((int1))
+
+    <PrintF>((int1))
+16
+
+
+
+
+
+    GCD (( 50 ,, 20 ))
+50 20 GCD is 10
+
+    LCM (( int1 ,, 7 ))
+16 7 LCM is 112
+
+    MIN (( int1 ,, int3 ))
+16 3 Min is 3
+
+    MAX (( int1 ,, int3 ))
+16 3 Max is 16
+
+
+
+
+
+    <WhilE> ((int1 << 4))
+
+    {{
+
+        <ChaR> char1 := $u$
+
+        <PrintF> (($Inside While loop$))
+Inside While loop
+
+    }}
+
+
+
+
+
+    <InT> i := 3
+
+    <FoR> (( i:=6 ;; i << 4 ;; IncOnE((i)) ))
+
+    {{
+
+        i := i +op+ 5
+
+        <PrintF> (($Inside the For loop$))
+Inside the For loop
+
+    }}
+
+
+
+    <IF> ((i << 1))
+
+    {{
+
+        int1 := 8 +op+ 5
+
+        <PrintF>(($Inside if statement$))
+Inside if statement
+
+    }}
+
+    <ElsE>
+
+    {{
+
+        int3 := 4 -op- 5
+
+        <PrintF>(($Inside else statement$))
+Inside else statement
+
+    }}
+Else statement will be executed.
+
+
+
+    i := 1
+
+    <IF> ((i <<== 1))
+
+    {{
+
+        int1 := 8 +op+ 5
+
+        <IF> ((i <<== 1))
+
+        {{
+
+            <PrintF>(($Nested if structure $))
+Nested if structure
+
+        }}
+
+    }}
+If statement will be executed.
+
+
+
+    <SwitcH> (( 3 ))
+If statement will be executed.
+Switch statement check
+
+    <CasE> 1 :: {{ <PrintF>(($case 1$)) }}
+case 1
+
+    <CasE> 2 :: {{ <PrintF>(($case 2$)) }}
+case 2
+
+    <CasE> 3 :: {{ <PrintF>(($case 3$)) }}
+case 3
+
+    <CasE> 4 :: {{ <PrintF>(($case 4$)) }}
+case 4
+
+    <DefaulT> :: {{ <PrintF>(($default case$))}}
+default case
+3
+
+}}
+User defined function.
+
+$$End of the function
+
+Single-line comment: $$End of the function
